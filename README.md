@@ -2,7 +2,7 @@
 
 This repository includes all web radios found in Archphile images.
 
-The base of this repo were Moodeaudio Webradios found in [this link](http://moodeaudio.org/#download) with additions/removals from my side.
+The base of this were are Moodeaudio Webradios found in [this link](http://moodeaudio.org/#download). The purpose of this repo is to further modify the list with additions/removals.
 
 In order to always have the latest webradios you can use the following procedure which replaces the existing pls files in Archphile images
 

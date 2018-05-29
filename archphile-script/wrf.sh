@@ -1,11 +1,11 @@
 #!/bin/bash
 
-wget https://github.com/archphile/AthensFMRadios/archive/master.zip
-rm -r /var/lib/mpd/music/webradio-athens/
+wget https://github.com/archphile/WebRadios/archive/master.zip
+rm -r /var/lib/mpd/music/webradio/
 unzip master.zip
-mv AthensFMRadios-master /var/lib/mpd/music/webradio-athens
-chown -R mpd:audio /var/lib/mpd/music/webradio-athens/
+mv WebRadios-master /var/lib/mpd/music/webradio
+chown -R mpd:audio /var/lib/mpd/music/webradio
 rm master.zip
-rm -r /var/lib/mpd/music/webradio-athens/archphile-script
-rm -r /var/lib/mpd/music/webradio-athens/README.md
+rm -r /var/lib/mpd/music/webradio/archphile-script
+rm -r /var/lib/mpd/music/webradio/README.md
 rm arf.sh

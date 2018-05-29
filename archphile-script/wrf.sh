@@ -8,4 +8,4 @@ chown -R mpd:audio /var/lib/mpd/music/webradio
 rm master.zip
 rm -r /var/lib/mpd/music/webradio/archphile-script
 rm -r /var/lib/mpd/music/webradio/README.md
-rm arf.sh
+rm wrf.sh

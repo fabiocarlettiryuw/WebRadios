@@ -11,7 +11,7 @@ In order to always have the latest webradios you can use the following procedure
 	./wrf.sh
 	
 
-**NOTE:** 0.99.73 is missing unzip which is required by wrf script. In order to install unzip, edit mirrorlist:
+**NOTE:** **0.99.73 ** is missing** unzip** which is required by **wrf** script. In order to install unzip, edit mirrorlist:
 
 	nano /etc/pacman.d/mirrorlist
 	

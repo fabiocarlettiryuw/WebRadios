@@ -9,3 +9,14 @@ In order to always have the latest webradios you can use the following procedure
 	wget https://raw.githubusercontent.com/archphile/AthensFMRadios/master/archphile-script/wrf.sh
 	chmod +x wrf.sh
 	./wrf.sh
+	
+
+**NOTE:** 0.99.73 is missing unzip which is required by wrf script. In order to install unzip, edit mirrorlist:
+
+	nano /etc/pacman.d/mirrorlist
+	
+enable the first server line, save and then install unzip command:
+
+	pacman -Sy unzip
+	
+Now you are ready to follow the initial procedure.

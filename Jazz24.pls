@@ -1,6 +1,6 @@
 [playlist]
-numberofentries=1
-File1=http://icy1.abacast.com:80/kplu-jazz24aac-64
+File1=http://live.wostreaming.net/direct/ppm-jazz24aac256-ibc1
 Title1=Jazz24
 Length1=-1
-version=2
+NumberOfEntries=1
+Version=2
